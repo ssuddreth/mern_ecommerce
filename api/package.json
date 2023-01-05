@@ -2,10 +2,14 @@
   "name": "react-mongo_ecommerce_app_api",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "yarn": "1.22.15",
+    "node": "16.13.2"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "build": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
